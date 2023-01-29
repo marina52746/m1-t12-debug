@@ -3,6 +3,9 @@ class Ai92Calculator {
 
     public double calculate(double volume, double discount) {
         double fullPrice = price * (1 + discount);
+        System.out.println("fullPrice = " + fullPrice);
         return volume * fullPrice;
+        //addComment
+	  //addNextComment
     }
 }
